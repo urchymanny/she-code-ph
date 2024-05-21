@@ -1,0 +1,30 @@
+#tdd {
+  padding: 0px;
+  margin: 0px;
+  background: url("../assets/bg.jpg");
+}
+
+.form_card {
+  background: #fff;
+  width: 320px;
+  margin: 0 auto;
+  padding: 40px 20px 20px 20px;
+}
+
+.form_card .caption {
+  color: #353edf;
+  font-size: 18px;
+}
+.font_card .description {
+  color: rgba(19, 7, 62, 0.5);
+  font-size: 12px;
+}
+
+.font_card form label {
+  color: #13073e;
+  font-size: 12px;
+}
+
+.font_card form input {
+  height: 40px;
+}
