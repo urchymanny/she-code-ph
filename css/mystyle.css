@@ -1,0 +1,25 @@
+/* THIS IS OUR FIRST CSS */
+body {
+  margin: 20px;
+  /* background-image: url("../assets/image.png"); */
+  height: 3000px;
+  /* background-repeat: repeat-y; */
+  /* background-size: cover;
+  background-attachment: fixed; */
+  /* background: url("../assets/image.png") no-repeat fixed cover; */
+  background: #ffffff url("../assets/image.png") no-repeat left top;
+}
+h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #ed7914;
+}
+#contact-form {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+}
