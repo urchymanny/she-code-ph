@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/tdd.css" type="text/css" />
   </head>
   <body id="tdd">
-    <img src="assets/logo.png" alt="logo" />
+    <img id="logo_img" src="assets/logo.png" alt="logo" />
 
     <div class="form_card">
       <img src="assets/keys.png" alt="" />
@@ -17,12 +17,12 @@
       </p>
 
       <form action="">
-        <label for="email"> Email </label>
-        <input type="email" placeholder="enter email" />
-        <input type="submit" value="Login" />
+        <label class="email_label" for="email"> Email Address </label>
+        <input class="btn_text" type="email" placeholder="Enter email address" />
+        <input class="login_btn" type="submit" value="Login" />
       </form>
     </div>
 
-    <p><a href="/login.html">Log In</a> | <a href="/signup.html">Sign Up</a></p>
+    <p class="btn_label"><a href="/login.html">Log In</a> | <a href="/signup.html">Sign Up</a></p>
   </body>
 </html>
