@@ -2,27 +2,39 @@
   <head>
     <title>TDD Website with Box Layout</title>
     <link rel="stylesheet" href="css/tdd.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body id="tdd">
-    <img src="assets/logo.png" alt="logo" />
+    <div class="main-container">
+      <img src="assets/logo.png" class="logo" alt="logo" />
 
-    <div class="form_card">
-      <img src="assets/keys.png" alt="" />
+      <div class="form_card">
+        <img src="assets/keys.png" class="key" alt="key image" />
 
-      <p class="caption">Let’s help you get back to your account</p>
+        <p class="caption">Let’s help you get back to your account</p>
 
-      <p class="description">
-        We would send an email to you to help you reset and get back into your
-        account in no time
+        <p class="description">
+          We would send an email to you to help you reset and get back into your
+          account in no time
+        </p>
+
+        <form action="">
+          <div class="input-group">
+            <label for="email"> Email </label> <br />
+            <input class="email_input" type="email" placeholder="enter email" />
+          </div>
+          <input type="submit" class="submit-btn" value="Login" />
+        </form>
+      </div>
+
+      <p class="bottom-links">
+        <a href="/login.html">Log In</a> | <a href="/signup.html">Sign Up</a>
       </p>
-
-      <form action="">
-        <label for="email"> Email </label>
-        <input type="email" placeholder="enter email" />
-        <input type="submit" value="Login" />
-      </form>
     </div>
-
-    <p><a href="/login.html">Log In</a> | <a href="/signup.html">Sign Up</a></p>
   </body>
 </html>
